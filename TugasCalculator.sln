@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCalculator", "AppCalculator\AppCalculator.csproj", "{8DAE985F-540E-4A6C-867A-545014075B90}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{BD2B4CBA-F08C-4D03-9776-91BE67A7C01D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8DAE985F-540E-4A6C-867A-545014075B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8DAE985F-540E-4A6C-867A-545014075B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8DAE985F-540E-4A6C-867A-545014075B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8DAE985F-540E-4A6C-867A-545014075B90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD2B4CBA-F08C-4D03-9776-91BE67A7C01D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD2B4CBA-F08C-4D03-9776-91BE67A7C01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD2B4CBA-F08C-4D03-9776-91BE67A7C01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD2B4CBA-F08C-4D03-9776-91BE67A7C01D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

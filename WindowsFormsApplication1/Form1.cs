@@ -8,14 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AppCalculator
+namespace WindowsFormsApplication1
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
-            HASIL.ReadOnly = true;
+
+          Hasil.ReadOnly = true;
             operasiHitung.Items.Add("Penambahan");
             operasiHitung.Items.Add("Pengurangan");
             operasiHitung.Items.Add("Perkalian");
@@ -47,22 +48,21 @@ namespace AppCalculator
 
             if (ambilOperasi == "Penambahan")
             {
-                HASIL.Text = Convert.ToString(penambahan(a, b));
+              Hasil.Text = Convert.ToString(penambahan(a, b));
             }
             else if (ambilOperasi == "Pengurangan")
             {
-                HASIL.Text = Convert.ToString(pengurangan(a, b));
+                Hasil.Text = Convert.ToString(pengurangan(a, b));
 
             }
             else if (ambilOperasi == "Perkalian")
             {
-                HASIL.Text = Convert.ToString(perkalian(a, b));
+                Hasil.Text = Convert.ToString(perkalian(a, b));
 
             }
             else
             {
-                HASIL.Text = Convert.ToString(pembagian(a, b));
-
+                Hasil.Text = Convert.ToString(pembagian(a, b));
             }
         }
     }
